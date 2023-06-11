@@ -27,8 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/BrummieQuinn)
-- Live Site URL: [Add live site URL here](https://codepen.io/BrummieQuinn)
+- Live Site URL: [Codepen](https://codepen.io/BrummieQuinn)
 
 ## My process
 Based on the user journey given, I knew I would need a flexible layout and media queries.
