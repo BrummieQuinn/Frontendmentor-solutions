@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Codepen](https://codepen.io/BrummieQuinn)
+- Live Site URL: [solution](https://results-summary-component-solution.netlify.app/)
 
 ## My process
 Based on the user journey given, I knew I would need a flexible layout and media queries.
