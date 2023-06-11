@@ -215,7 +215,7 @@ h4 {
     cursor: pointer;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
 /*|| General styles||*/
 
     body {
@@ -227,12 +227,10 @@ h4 {
     
     .desktop-view {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 80vh 80vh;
         grid-template-rows: 1fr;
-        padding: 0; 
-       
-        
-    
+        padding: 0;
+        justify-content: center;
     }
 
     .result__gridcontainer
