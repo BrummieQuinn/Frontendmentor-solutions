@@ -227,7 +227,7 @@ h4 {
     
     .desktop-view {
         display: grid;
-        grid-template-columns: 80vh 80vh;
+        grid-template-columns: 70vh 70vh;
         grid-template-rows: 1fr;
         padding: 0;
         justify-content: center;

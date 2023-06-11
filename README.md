@@ -68,15 +68,13 @@ I'm sure I can make shorter declarations as I become more proficient in CSS, pos
 /*|| General styles||*/
 
     body {
-        margin-top: 5px;
-        margin-left: 10px;
     
-        overflow: hidden;
+        /* overflow: hidden; */
     }
     
     .desktop-view {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 80vh 1fr;
         grid-template-rows: 1fr;
         padding: 0; 
 ```
@@ -85,7 +83,10 @@ I'm sure I can make shorter declarations as I become more proficient in CSS, pos
 
 For my continued development, I would like to add the results dynamically to the page using the data.json file provided and javascript.
 
-I want to continue to get faster at creating class names using BEM
+I want to continue to get faster at creating class names using BEM.
+
+Since I was concentrating on implementing BEM, I wasn't as careful with accessibility as I usually am.
+This is something for me to address in the future.
 
 
 ## Author
