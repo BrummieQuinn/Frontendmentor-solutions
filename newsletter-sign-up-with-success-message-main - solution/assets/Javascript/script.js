@@ -38,8 +38,6 @@ function validateEmail() {
 
 		warning.style.display = 'block';
 
-		emailSpan.textContent = '';
-
 		return false;
 	}
 }
