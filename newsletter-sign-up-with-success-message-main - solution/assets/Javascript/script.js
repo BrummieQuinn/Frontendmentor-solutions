@@ -18,13 +18,17 @@ const warning = document.createElement('p');
 
 	emailInput.parentNode.insertBefore(warning, emailInput);
 	
-warning.style.display = 'none';
+	warning.style.display = 'none';
+
+let emailSpan = document.body.querySelector('.successBold');
 
 function validateEmail() {
 	
 	if (emailValidation.test(emailInput.value)) {
 		
 		warning.style.display = 'none';
+
+		emailSpan.textContent = emailInput.value;
 
 		console.log(warning);
 
@@ -33,6 +37,8 @@ function validateEmail() {
 	} else {
 
 		warning.style.display = 'block';
+
+		emailSpan.textContent = '';
 
 		return false;
 	}
